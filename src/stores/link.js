@@ -19,6 +19,7 @@ export const redirectEvent = function (event) {
 }
 
 export const redirect = function (url) {
+    redirectedStore.set(true);
     linkProg.set(url == "/" ? 1 : 0, { duration: 0 });
     if (url != "/") { actualPath.set(url); } else startHide();
     linkProg.set(url == "/" ? 0 : 1).then(() => {
@@ -29,12 +30,18 @@ export const redirect = function (url) {
 const onShowedFuns = writable([]);
 const onHideFuns = writable([]);
 
+const redirectedStore = writable(false);
+let redirected = false;
+redirectedStore.subscribe(val => redirected = val);
+
+
 let showedF = [];
 let hideF = [];
 onShowedFuns.subscribe(val => showedF = val);
 onHideFuns.subscribe(val => hideF = val);
 
 export const onShowed = function (fun) {
+    if (window.location.pathname != "/" && !redirected) fun();
     onShowedFuns.set([...showedF, fun]);
 }
 export const onHide = function (fun) {
@@ -42,7 +49,7 @@ export const onHide = function (fun) {
 }
 
 
-function startShowed() {
+export const startShowed = function () {
     for (let f of showedF) f();
 }
 

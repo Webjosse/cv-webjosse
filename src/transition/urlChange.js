@@ -1,4 +1,4 @@
-import { redirect, linkProg } from "../stores/link.js";
+import { redirect, linkProg, startShowed } from "../stores/link.js";
 
 const urlChangeInit = () => {
     if (window.location.pathname != "/") linkProg.set(1, { duration: 0 });
@@ -23,6 +23,8 @@ const urlChangeInit = () => {
     window.addEventListener("locationchange", function () {
         redirect(window.location.pathname);
     });
+
+    startShowed();
 };
 
 export default urlChangeInit;
