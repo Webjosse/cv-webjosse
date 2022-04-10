@@ -1,0 +1,9 @@
+body {
+    font-size: 1vw;
+}
+
+@media (max-width: 425px) {
+    body {
+        font-size: 0.8vh;
+    }
+}
