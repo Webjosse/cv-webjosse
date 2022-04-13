@@ -5,6 +5,10 @@
 	import urlChangeInit from "./transition/urlChange.js";
 	import { onMount } from "svelte";
 	import MonProjet from "./MonProjet/MonProjet.svelte";
+	import Competences from "./Competences/Competences.svelte";
+	import Experiences from "./Experiences/Experiences.svelte";
+	import SavoirEtre from "./SavoirEtre/SavoirEtre.svelte";
+	import Contact from "./Contact/Contact.svelte";
 	onMount(urlChangeInit);
 </script>
 
@@ -15,6 +19,14 @@
 			<Transition>
 				{#if $actualPath == "/projet"}
 					<MonProjet />
+				{:else if $actualPath == "/competences"}
+					<Competences />
+				{:else if $actualPath == "/experiences"}
+					<Experiences />
+				{:else if $actualPath == "/savoir-etre"}
+					<SavoirEtre />
+				{:else if $actualPath == "/contact"}
+					<Contact />
 				{:else}
 					<p>404: {$actualPath} not registered</p>
 				{/if}

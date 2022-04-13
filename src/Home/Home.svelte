@@ -1,9 +1,13 @@
 <script>
+    import { redirectEvent } from "../stores/link.js";
     import HomeLink from "./HomeLink.svelte";
 </script>
 
 <nav>
-    <img src="/res/img/me.jpg" alt="Josse DE OLIVEIRA" />
+    <div>
+        <img src="/res/img/me.jpg" alt="Josse DE OLIVEIRA" />
+        <a on:click={redirectEvent} href="/contact">&#x1F4E7;</a>
+    </div>
     <ol>
         <HomeLink href="/projet">MON PROJET</HomeLink>
         <HomeLink href="/competences">COMPÉTENCES</HomeLink>
@@ -28,6 +32,25 @@
         border-radius: 50%;
         margin-right: 3em;
     }
-    ol {
+    div {
+        position: relative;
+    }
+    a {
+        display: block;
+        font-size: 5em;
+        text-decoration: none;
+        position: absolute;
+        left: 1em;
+        bottom: 1em;
+        background-color: var(--blu);
+        padding: 0.1em;
+        border: 0.1em solid var(--light);
+        border-radius: 50%;
+        transform: translate(-50%, 50%);
+    }
+    a:hover {
+        transform: translate(-50%, 50%) scale(1.1);
+        transition: 0.5s all;
+        border-width: 0.2em;
     }
 </style>

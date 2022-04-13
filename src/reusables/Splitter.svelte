@@ -15,7 +15,7 @@
     div.splitter {
         display: flex;
         justify-content: space-between;
-        align-items: center;
+        align-items: stretch;
         height: max-content;
         > div {
             position: relative;

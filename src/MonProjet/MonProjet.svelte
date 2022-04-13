@@ -23,8 +23,9 @@
     </p>
     <p>
         <strong>
-            C'est pourquoi, ayant postulé à l'école <i>CPE Lyon</i> je cherche une
-            entreprise pour une alternance de 3 ans dans la zone de Saint-Etienne/Lyon
+            C'est pourquoi, étant admis à l'école <i>CPE Lyon</i>, je cherche
+            une entreprise pour une alternance de 3 ans dans la zone de
+            Saint-Etienne/Lyon
         </strong>
     </p>
 </Article>
@@ -96,7 +97,6 @@
     strong {
         font-weight: 900;
         font-size: 1.25em;
-        color: var(--light);
-        text-shadow: 0.05em 0.05em var(--blu);
+        text-shadow: 0.03em 0.03em var(--light);
     }
 </style>
