@@ -25,7 +25,7 @@
         <strong>
             C'est pourquoi, étant admis à l'école <i>CPE Lyon</i>, je cherche
             une entreprise pour une alternance de 3 ans dans la zone de
-            Saint-Etienne/Lyon
+            Saint-Etienne/Lyon.
         </strong>
     </p>
 </Article>
@@ -44,7 +44,7 @@
             <p>
                 Je suis intéressé par le développement depuis le collège, j'ai
                 toujours apprécié l'algorithmique et la possibilité de créer des
-                outils qui simplifient la vie des utilisateurs
+                outils qui simplifient la vie des utilisateurs.
             </p>
             <p>Le secteur du web m'intéresse tout particulièrement car:</p>
             <ul>
@@ -52,15 +52,15 @@
                     Les langages du web sont souvent de haut niveau: on peut se
                     concentrer sur le développement de fonctionnalités, sans
                     avoir à gérer certains contraintes techniques répétitives
-                    (comme l'allocation de mémoire)
+                    (comme l'allocation de mémoire).
                 </li>
                 <li>
                     Les applications web sont disponibles partout et sur toutes
-                    les plateformes, il suffit d'avoir un navigateur
+                    les plateformes, il suffit d'avoir un navigateur.
                 </li>
                 <li>
                     Les applications web permettent le plus souvent de mettre en
-                    relation plusieurs utilisateurs
+                    relation plusieurs utilisateurs.
                 </li>
             </ul>
         </div>
@@ -86,8 +86,8 @@
                 m'ont transmis le goût de la conception et du management
                 d'équipe (projet tutoré, projets de communication, etc...).
                 Cependant, je suis conscient qu'il me reste encore bien plus à
-                apprendre dans ce domaine que sur l'aspect technique.
-                (développement)
+                apprendre dans ce domaine que sur l'aspect technique
+                (développement).
             </p>
         </div>
     </Splitter>

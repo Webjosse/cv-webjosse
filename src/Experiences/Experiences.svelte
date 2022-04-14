@@ -15,24 +15,24 @@
         <h4>2022 - Esabora Digital Services</h4>
         <p>
             Développement Full-Stack C# & ASP.NET, Méthode agile avec l'outil
-            Jira
+            Jira.
         </p>
 
         <Header3>Emplois d'été</Header3>
         <h4>2020 - Mairie de Saint Jean Bonnefonds</h4>
-        <p>Enregistrement des élèves pour la cantine</p>
+        <p>Enregistrement des élèves pour la cantine.</p>
         <h4>2021 - Géant Casino</h4>
-        <p>Préparateur E-Commerce pendant 6 semaines</p>
+        <p>Préparateur E-Commerce pendant 6 semaines.</p>
 
         <Header3>Stages d'observation</Header3>
         <Splitter part={1 / 2}>
             <div slot="right" class="separated">
                 <h4>2017 - Avant Goût Studio</h4>
-                <p>Développement Informatique</p>
+                <p>Développement Informatique.</p>
             </div>
             <div slot="left" class="separated rsep">
                 <h4>2019 - SFI</h4>
-                <p>Développement Web PHP & Symfony</p>
+                <p>Développement Web PHP & Symfony.</p>
             </div>
         </Splitter>
     </div>
@@ -44,8 +44,12 @@
         <p>Avril 2021 - Avril 2022</p>
         <p>
             Membre du pôle communication du Bureau des Étudiants 2021-2022 du
-            département Informatique de l'IUT Lyon 1 Site Doua
+            département Informatique de l'IUT Lyon 1 Site Doua.
         </p>
+
+        <Header3>Mission de Vie</Header3>
+        <p>2018 - 2020</p>
+        <p>Animations en maison de retraite, distribution de repas...</p>
     </div>
 </Article>
 

@@ -15,11 +15,11 @@
         <p>
             Baccalauréat S Sciences et Vie de la Terre Mention Très Bien au <u>
                 Lycée Saint Paul
-            </u> à Saint Etienne
+            </u> à Saint Etienne.
         </p>
         <p>
             <strong>Chinois LV2</strong> ,
-            <strong>Spécialité Informatique et Sciences du Numérique</strong>
+            <strong>Spécialité Informatique et Sciences du Numérique.</strong>
         </p>
         <Header3>
             <span class="imgtxt">
@@ -31,7 +31,7 @@
                 />
             </span>
         </Header3>
-        <p>DUT Informatique 2022 à l'IUT Lyon 1 Site Doua</p>
+        <p>DUT Informatique 2022 à l'IUT Lyon 1 Site Doua.</p>
     </div>
 </Article>
 <Header2>Informatique</Header2>
@@ -79,7 +79,7 @@
                     <span class="s-3">SQL</span> (
                     <span class="s-3">Oracle</span>,
                     <span class="s-2">MySQL</span>,
-                    <span class="s-1">SQL Server</span>
+                    <span class="s-1">SQL Server</span>)
                 </li>
                 <li class="s-1">MongoDB</li>
             </ul>
@@ -141,9 +141,9 @@
 
 <Header2>Autres</Header2>
 <Article>
-    <ul style="font-size: 1.2;">
-        <li>Anglais Compréhension B2 (TOEIC) et Expression Orale CA (CEC)</li>
-        <li>Bases du Chinois (Bac LV2)</li>
+    <ul style="font-size: 1.2em;">
+        <li>Anglais Compréhension B2 (TOEIC) et Expression Orale C1 (CEC).</li>
+        <li>Bases du Chinois (Bac LV2).</li>
     </ul>
 </Article>
 
