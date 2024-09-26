@@ -4,8 +4,9 @@
     import Header3 from "../reusables/Header3.svelte";
     import Article from "../reusables/Article.svelte";
     import Splitter from "../reusables/Splitter.svelte";
+    import GoBack from "../reusables/GoBack.svelte";
 </script>
-
+<GoBack />
 <Header1>Parcours</Header1>
 
 <Header2>Expériences</Header2>

@@ -2,8 +2,9 @@
     import Header1 from "../reusables/Header1.svelte";
     import Article from "../reusables/Article.svelte";
     import Splitter from "../reusables/Splitter.svelte";
+    import GoBack from "../reusables/GoBack.svelte";
 </script>
-
+<GoBack/>
 <Header1>Mes projets</Header1>
 <Article>
     <center>
@@ -71,7 +72,7 @@
     }
     .projet_link{
         color: var(--lighter);
-        text-shadow: 0.1em 0.1em var(--blu);
+        font-weight: 900;
     }
 
     .flex-center{

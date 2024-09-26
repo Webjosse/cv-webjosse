@@ -5,7 +5,7 @@
 
 <nav>
     <div>
-        <img src="/res/img/me.jpg" alt="Josse DE OLIVEIRA" />
+        <img src="/res/img/me.gif" alt="Josse DE OLIVEIRA" />
         <a on:click={redirectEvent} href="/contact">&#x1F4E7;</a>
     </div>
     <ol>
@@ -21,7 +21,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        @media (max-width: 425px) {
+        @media (max-width: 728px) {
             flex-direction: column;
         }
     }
@@ -51,5 +51,11 @@
         transform: translate(-50%, 50%) scale(1.1);
         transition: 0.5s all;
         border-width: 0.2em;
+    }
+    ol{
+        font-size: 1rem;
+        @media (max-width: 728px){
+            font-size: inherit;
+        }
     }
 </style>

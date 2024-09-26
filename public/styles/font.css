@@ -1,8 +1,12 @@
-body {
-    font-size: 1vw;
+:root{
+    font-size: min(10px,1vw);
 }
 
-@media (max-width: 425px) {
+body {
+    font-size: 1vw
+}
+
+@media (max-width: 728px) {
     body {
         font-size: 7px;
     }

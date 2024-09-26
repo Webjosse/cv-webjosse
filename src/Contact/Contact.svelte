@@ -2,8 +2,9 @@
     import Header1 from "../reusables/Header1.svelte";
     import Header2 from "../reusables/Header2.svelte";
     import Article from "../reusables/Article.svelte";
+    import GoBack from "../reusables/GoBack.svelte";
 </script>
-
+<GoBack />
 <Header1>Contacts</Header1>
 
 <Header2>Mail</Header2>

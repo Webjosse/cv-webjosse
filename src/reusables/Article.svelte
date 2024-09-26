@@ -21,10 +21,11 @@
         background-color: var(--dark);
         font-size: 1.5em;
         text-align: justify;
-        @media (max-width: 425px) {
+        width: 65vw;
+        @media (max-width: 728px) {
             font-size: 2em;
+            width: 90vw;
         }
-        width: 90vw;
-        padding: 1vw;
+        padding: 1rem;
     }
 </style>

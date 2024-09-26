@@ -19,7 +19,7 @@
         padding-left: 4em;
         margin-top: 0.5em;
         margin-bottom: 0.5em;
-        @media (max-width: 425px) {
+        @media (max-width: 728px) {
             transform: translateX(-4em);
         }
     }

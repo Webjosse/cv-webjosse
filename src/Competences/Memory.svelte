@@ -22,7 +22,7 @@
         'Vue.js'
     ];
     let techMemory = [...techs, ...techs].sort(() => Math.random() - 0.5);
-    let cards = new Array(36).fill(0).map(() => false);
+    let cards = new Array(36).fill(0).map(() => true);
 
     let selected = null;
     function select(idx){

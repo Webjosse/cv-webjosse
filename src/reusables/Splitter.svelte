@@ -28,7 +28,7 @@
         :last-child {
             width: calc(100% - var(--part) - 2em);
         }
-        @media (max-width: 425px) {
+        @media (max-width: 728px) {
             flex-direction: column;
             justify-content: flex-start;
             align-items: stretch;
