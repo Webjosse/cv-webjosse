@@ -4,10 +4,9 @@
 	import { linkProg, actualPath } from "./stores/link.js";
 	import urlChangeInit from "./transition/urlChange.js";
 	import { onMount } from "svelte";
-	import MonProjet from "./MonProjet/MonProjet.svelte";
+	import Projets from "./Projets/Projets.svelte";
 	import Competences from "./Competences/Competences.svelte";
 	import Experiences from "./Experiences/Experiences.svelte";
-	import SavoirEtre from "./SavoirEtre/SavoirEtre.svelte";
 	import Contact from "./Contact/Contact.svelte";
 	onMount(urlChangeInit);
 </script>
@@ -17,14 +16,12 @@
 	{#if $linkProg > 0}
 		<div class="plan">
 			<Transition>
-				{#if $actualPath == "/projet"}
-					<MonProjet />
+				{#if $actualPath == "/projets"}
+					<Projets />
 				{:else if $actualPath == "/competences"}
 					<Competences />
 				{:else if $actualPath == "/experiences"}
 					<Experiences />
-				{:else if $actualPath == "/savoir-etre"}
-					<SavoirEtre />
 				{:else if $actualPath == "/contact"}
 					<Contact />
 				{:else}

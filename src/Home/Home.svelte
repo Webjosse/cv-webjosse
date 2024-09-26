@@ -9,10 +9,9 @@
         <a on:click={redirectEvent} href="/contact">&#x1F4E7;</a>
     </div>
     <ol>
-        <HomeLink href="/projet">MON PROJET</HomeLink>
+        <HomeLink href="/projets">PROJETS</HomeLink>
         <HomeLink href="/competences">COMPÉTENCES</HomeLink>
-        <HomeLink href="/experiences">EXPÉRIENCES</HomeLink>
-        <HomeLink href="/savoir-etre">SAVOIR-ÊTRE</HomeLink>
+        <HomeLink href="/experiences">PARCOURS</HomeLink>
     </ol>
 </nav>
 

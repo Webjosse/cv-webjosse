@@ -6,50 +6,43 @@
     import Splitter from "../reusables/Splitter.svelte";
 </script>
 
-<Header1>Expériences</Header1>
+<Header1>Parcours</Header1>
 
-<Header2>Expériences Professionnelles</Header2>
+<Header2>Expériences</Header2>
 <Article>
     <div>
-        <Header3>Stage DUT</Header3>
-        <h4>2022 - Esabora Digital Services</h4>
-        <p>
-            Développement Full-Stack C# & ASP.NET, Méthode agile avec l'outil
-            Jira.
-        </p>
+        <Header3>Esabora Digital Services</Header3>
+        <h4>2022 : Stage (12 semaines) puis CDD (6 semaines)</h4>
+        <ul>
+            <li>Développement Full-Stack C# & ASP.NET</li>
+            <li>Intégration d'une lib de composants calendrier</li>
+            <li>Travail sur des modèles d'impressions et des exports de données</li>
+        </ul>
 
-        <Header3>Emplois d'été</Header3>
-        <h4>2020 - Mairie de Saint Jean Bonnefonds</h4>
-        <p>Enregistrement des élèves pour la cantine.</p>
-        <h4>2021 - Géant Casino</h4>
-        <p>Préparateur E-Commerce pendant 6 semaines.</p>
-
-        <Header3>Stages d'observation</Header3>
-        <Splitter part={1 / 2}>
-            <div slot="right" class="separated">
-                <h4>2017 - Avant Goût Studio</h4>
-                <p>Développement Informatique.</p>
-            </div>
-            <div slot="left" class="separated rsep">
-                <h4>2019 - SFI</h4>
-                <p>Développement Web PHP & Symfony.</p>
-            </div>
-        </Splitter>
+        <Header3>Ciril GROUP</Header3>
+        <h4>2022 - 2025: Alternance</h4>
+        <ul>
+            <li>Développement Full-Stack Java + Vue 2 & 3</li>
+            <li>Migration de moteur de templating vers Freemarker</li>
+            <li>Travail sur de l'import de données en masse</li>
+            <li>Travail sur l'extensibiilité d'un explorateur de ressources</li>
+        </ul>
+        <h4>2024 : Stage au Canada</h4>
+        <ul>
+            <li>Migration de serveur web de Play! vers Spring Boot</li>
+        </ul>
     </div>
 </Article>
-<Header2>Expérience Associative</Header2>
+<Header2>Formation</Header2>
 <Article>
     <div>
-        <Header3>BDE Info Lyon 1</Header3>
-        <p>Avril 2021 - Avril 2022</p>
-        <p>
-            Membre du pôle communication du Bureau des Étudiants 2021-2022 du
-            département Informatique de l'IUT Lyon 1 Site Doua.
-        </p>
+        <Header3>IUT Info Lyon 1</Header3>
+        <p>2020 - 2022</p>
+        <p>Maitrise de l'algorithmie, les structures de données, le cycle de vie des applications, etc...</p>
 
-        <Header3>Mission de Vie</Header3>
-        <p>2018 - 2020</p>
-        <p>Animations en maison de retraite, distribution de repas...</p>
+        <Header3>CPE Lyon</Header3>
+        <p>2022 - 2025</p>
+        <p>Maitrise du DevOps, des Design Patterns, de l'architecture logicielle et réseaux</p>
     </div>
 </Article>
 
@@ -71,5 +64,11 @@
 
     h4 {
         font-size: 1.5em;
+    }
+    li{
+        list-style: none;
+        border-top: 0.1em solid var(--blu);
+        border-bottom: 0.1em solid var(--blu);
+        margin: 0.5em;
     }
 </style>
