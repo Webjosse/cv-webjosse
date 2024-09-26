@@ -45,6 +45,7 @@
         <p>Créé par groupe de 3 dans le cadre de mes études à CPE Lyon, j'ai été en charge de l'architecture. Le nom est inspiré de <em>Symfony</em>, mais avec des jeux de mots</p>
     </center>
 </Article>
+<Splitter />
 
 <style>
     strong {

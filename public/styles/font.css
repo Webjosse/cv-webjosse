@@ -1,9 +1,9 @@
 body {
-    font-size: min(1vw, 10px);
+    font-size: 1vw;
 }
 
 @media (max-width: 425px) {
     body {
-        font-size: 0.8vh;
+        font-size: 7px;
     }
 }

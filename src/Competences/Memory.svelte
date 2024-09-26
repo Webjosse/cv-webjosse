@@ -21,7 +21,7 @@
         'TypeScript',
         'Vue.js'
     ];
-    const techMemory = [...techs, ...techs].sort(() => Math.random() - 0.5);
+    let techMemory = [...techs, ...techs].sort(() => Math.random() - 0.5);
     let cards = new Array(36).fill(0).map(() => false);
 
     let selected = null;
@@ -42,6 +42,17 @@
     }
 </script>
 
+{#if cards.every(b => b)}
+    <button on:click={() => {
+        cards = cards.map(() => false)
+        setTimeout(() => techMemory = [...techs, ...techs].sort(() => Math.random() - 0.5), 500);
+
+    }}>Jouer au Memory</button>
+{:else}
+    <button on:click={() => cards = cards.map(() => true)}>Voir les compétences</button>
+{/if}
+
+
 <ul>
     {#each techMemory as memory, i}
         <MemoryCard name={memory} upsideDown={!cards[i]} on:click={() => select(i)}/>
@@ -49,7 +60,17 @@
 </ul>
 
 <style lang="scss">
+    button{
+        font-size: inherit;
+        border-color: transparent;
+        background-color: var(--blu);
+        color: var(--darker);
+        box-shadow: 0.1em 0.1em var(--lighter);
+        cursor: pointer;
+    }
+    
     ul {
+        padding: 0;
         display: grid;
         grid-template-columns: repeat(6, 1fr);
         list-style-type: none;
