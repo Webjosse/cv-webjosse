@@ -43,8 +43,16 @@
         <Header3>CPE Lyon</Header3>
         <p>2022 - 2025</p>
         <p>Maitrise du DevOps, des Design Patterns, de l'architecture logicielle et réseaux</p>
+        <p>Divers projets dans le cadre des cours:</p>
+        <ul>
+            <li>Application cartographique de calcul de trajets avec bornes de recharges (React + Leaflet)</li>
+            <li>Création d'un Framework PHP</li>
+            <li>Mise en place d'un simulateur d'incendies et d'une chaîne IoT pour les interventions</li>
+            <li>Création d'une boutique de cartes à jouer en Microservices avec un Saga Orchestrator</li>
+        </ul>
     </div>
 </Article>
+<Splitter/>
 
 <style lang="scss">
     div {
